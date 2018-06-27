@@ -67,6 +67,14 @@ Uruchomienie:
 java -jar target/example-spring-web-metrics-1.0.0.jar
 ```
 
+Po uruchomieniu możemy śledzić metryki (np.: system\_cpu\_usage, jvm\_gc\_memory\_allocated\_bytes\_total) za pomocą linków:
+
+http://localhost:8080/actuator/prometheus
+
+oraz
+
+http://localhost:9090
+
 ## Inne
 
 https://igorski.co/java/spring-boot/spring-boot-metrics-prometheus/
